@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"WinDebug/DB.res" /d "_DEBUG" /d "_AFXDLL" "E:\Client\DB.RC"" 
+Creating temporary file "D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP224.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"WinDebug/DB.pch" /Yu"stdafx.h" /Fo"WinDebug/" /Fd"WinDebug/" /FD /c 
+"E:\Client\DB.CPP"
+"E:\Client\DBDOC.CPP"
+"E:\Client\DBVIEW.CPP"
+"E:\Client\MAINFRM.CPP"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP224.tmp" 
+Creating temporary file "D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"WinDebug/DB.pch" /Yc"stdafx.h" /Fo"WinDebug/" /Fd"WinDebug/" /FD /c 
+"E:\Client\STDAFX.CPP"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP225.tmp" 
+Creating temporary file "D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP226.tmp" with contents
+[
+uuid.lib ole32.lib /nologo /subsystem:windows /incremental:yes /pdb:"WinDebug/DB.pdb" /debug /machine:I386 /out:"WinDebug/DB.exe" 
+.\WinDebug\DB.OBJ
+.\WinDebug\DBDOC.OBJ
+.\WinDebug\DBVIEW.OBJ
+.\WinDebug\MAINFRM.OBJ
+.\WinDebug\STDAFX.OBJ
+.\WinDebug\DB.res
+]
+Creating command line "link.exe @D:\DOCUME~1\Intimacy\LOCALS~1\Temp\RSP226.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+STDAFX.CPP
+Compiling...
+DB.CPP
+DBDOC.CPP
+DBVIEW.CPP
+MAINFRM.CPP
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DB.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

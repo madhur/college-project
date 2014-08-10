@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Spy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Spy.res" /d "_DEBUG" /d "_AFXDLL" "C:\New Folder\Proj\Spy\Spy.rc"" 
+Creating temporary file "D:\DOCUME~1\MADHUR~1.000\LOCALS~1\Temp\RSP251.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Spy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\New Folder\Proj\Spy\SpyView.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MADHUR~1.000\LOCALS~1\Temp\RSP251.tmp" 
+Creating temporary file "D:\DOCUME~1\MADHUR~1.000\LOCALS~1\Temp\RSP252.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Spy.pdb" /debug /machine:I386 /out:"Debug/Spy.exe" /pdbtype:sept 
+".\Debug\DefTree.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MsgWindow.obj"
+".\Debug\MyList.obj"
+".\Debug\MySpy.obj"
+".\Debug\PING.obj"
+".\Debug\PingThread.obj"
+".\Debug\Spy.obj"
+".\Debug\SpyDoc.obj"
+".\Debug\SpyHelp.obj"
+".\Debug\SpyView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Spy.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\MADHUR~1.000\LOCALS~1\Temp\RSP252.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+SpyView.cpp
+C:\New Folder\Proj\Spy\SpyView.cpp(246) : warning C4101: 'ip1' : unreferenced local variable
+C:\New Folder\Proj\Spy\SpyView.cpp(246) : warning C4101: 'ip2' : unreferenced local variable
+C:\New Folder\Proj\Spy\SpyView.cpp(246) : warning C4101: 'ip3' : unreferenced local variable
+C:\New Folder\Proj\Spy\SpyView.cpp(246) : warning C4101: 'ip4' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Spy.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

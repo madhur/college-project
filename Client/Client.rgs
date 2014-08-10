@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{FC9045C2-89D0-4B6F-9C3B-3A30040193CE} = s 'Client'
+		'Client.EXE'
+		{
+			val AppID = s {FC9045C2-89D0-4B6F-9C3B-3A30040193CE}
+		}
+	}
+}

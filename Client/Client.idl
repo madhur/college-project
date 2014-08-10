@@ -1,0 +1,20 @@
+// Client.idl : IDL source for Client.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Client.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(14CECF92-7604-4CF7-830E-1745647CBA63),
+	version(1.0),
+	helpstring("Client 1.0 Type Library")
+]
+library CLIENTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
